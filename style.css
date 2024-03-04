@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#main_caontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_left{
+    width: 50%;
+    height: 695px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#button{
+    align-items: center;
+}
+
+#right_container{
+    width: 50%;
+    height: 695px;
+    
+
+}
+h1{
+    text-align: center;
+}
+.hideline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 30%; */
+    font-size: x-large;
+}
+
+#notes_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 2px;
+}
